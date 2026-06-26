@@ -1,4 +1,3 @@
-
 ---
 title: RedRob Job Profiler
 colorFrom: blue
@@ -6,6 +5,8 @@ colorTo: purple
 sdk: streamlit
 app_file: app.py
 pinned: false
+sdk_version: 1.58.0
+python_version: "3.11"
 ---
 
 # Redrob Hackathon — Intelligent Candidate Discovery & Ranking
