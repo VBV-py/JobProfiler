@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 pandas>=2.0.0
 numpy>=1.24.0
@@ -13,8 +12,3 @@ tqdm>=4.65.0
 
 # Sandbox / Demo
 streamlit>=1.28.0
-=======
-altair
-pandas
-streamlit
->>>>>>> c16aec7e4622b42a6a865679bbf0184c4cd93aad
