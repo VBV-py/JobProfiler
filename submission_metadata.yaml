@@ -1,0 +1,70 @@
+# Redrob Hackathon — Submission Metadata
+
+# Team identity
+team_name: "Tech Elites"  
+
+primary_contact:
+  name: "Vaibhav Singh"                 
+  email: "vs450@snu.edu.in"    
+  contact: "+91-8587975282"                
+
+team_memberS:
+  - name: "Vaibhav Singh"
+    email: "vs450@snu.edu.in"
+    role: "Team Lead & AI Engineer"
+
+  - name: "Lakshya Varshney"
+    email: "lakshya.varshney334@gmail.com"
+    role: "AI Engineer"
+
+  
+
+# Code and reproducibility
+github_repo: "https://github.com/YOUR_USERNAME/redrob-ranker"  
+
+sandbox_link: "https://your-sandbox-url.streamlit.app"        
+
+reproduce_command: "python rank.py --candidates ./data/candidates.jsonl --out ./output/submission.csv"
+
+# Compute environment
+compute:
+  platform: "Windows PC"                         
+  cpu_cores: 8                                  
+  ram_gb: 16
+  python_version: "3.11"
+  os: "Windows 11"                               
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+# AI tools declaration
+ai_tools_used:
+  - "Claude"                                     
+
+ai_usage_summary: |
+  Used Claude for code review, architectural discussion, and initial
+  scaffolding. All scoring logic, weight tuning, and honeypot detection
+  rules were designed and iterated by the team. No candidate data was
+  fed to any external LLM.
+
+# Approach summary
+methodology_summary: |
+  Multi-component rule-based ranking system with behavioral signal modifiers.
+  Six scoring dimensions (title relevance, skill match with endorsement-based
+  trust weighting, career trajectory analysis, experience fit, location, and
+  education) combined via weighted composite. The skill matcher applies a
+  trust multiplier using endorsement counts and skill duration to catch keyword
+  stuffers. Career trajectory analysis detects consulting-only careers and
+  rewards production ML experience at product companies. An 8-check honeypot
+  detector catches impossible profiles. Behavioral engagement signals
+  (response rate, recency, notice period) act as a multiplicative modifier.
+  Runtime is ~2 minutes for 100K candidates on CPU.
+
+# Declarations
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

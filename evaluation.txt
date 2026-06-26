@@ -1,0 +1,53 @@
+This evaluation is based on rank.py.
+
+Run "python rank.py --candidates ./data/candidates.jsonl --out ./output/team_6a27b0543c432ee48257f0c4.csv"
+
+---------------------------------------------
+============================================================
+  Redrob Hackathon -- Candidate Ranking System
+============================================================
+  Input:  ./data/candidates.jsonl
+  Output: ./output/team_6a27b0543c432ee48257f0c4.csv
+  Top N:  100
+============================================================
+
+Loading and scoring candidates from: ./data/candidates.jsonl
+============================================================
+Scoring candidates: 100000 candidates [00:21, 4642.98 candidates/s]
+
+============================================================
+Total candidates processed:  100,000
+Honeypots detected & removed: 52
+Coarse-filtered (low title): 57,326
+Candidates scored in detail:  42,622
+
+Top 100 candidates selected.
+  Score range: 1.1988 (rank 1) -> 1.0664 (rank 100)
+
+Generating per-candidate reasoning...
+
+============================================================
+  RESULTS
+============================================================
+  [OK] Wrote 100 candidates to: ./output/team_6a27b0543c432ee48257f0c4.csv
+  [TIME] Total time: 22.2s / 300s budget
+  [OK] Within budget -- 278s remaining
+
+  Top 5 ranked candidates:
+    Rank   1: CAND_0043860  score=1.1988
+    Rank   2: CAND_0081846  score=1.1949
+    Rank   3: CAND_0046525  score=1.1913
+    Rank   4: CAND_0064326  score=1.1877
+    Rank   5: CAND_0048558  score=1.1838
+    ...
+    Rank 100: CAND_0046353  score=1.0664
+
+============================================================
+
+
+Check 2--- validation 
+
+Run "python validate_submission.py output/team_6a27b0543c432ee48257f0c4.csv"
+
+
+Submission is valid.
