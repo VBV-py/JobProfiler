@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # Redrob Hackathon — Intelligent Candidate Discovery & Ranking
 
 AI-powered candidate ranking system for the Redrob Hackathon challenge. Ranks 100K candidates for a Senior AI Engineer role using multi-component scoring with behavioral signal modifiers.
@@ -46,8 +48,6 @@ python rank.py --candidates ./data/candidates.jsonl --out ./output/team_id.csv
 ```bash
 python validate_submission.py output/team_id.csv
 ```
-
-
 
 <pre class="vditor-reset" placeholder="" contenteditable="true" spellcheck="false"><hr data-block="0"/></pre>
 
@@ -155,3 +155,35 @@ redrob-ranker/
 2. **This repository** — full source code with setup instructions
 3. **Sandbox** — Streamlit app at [sandbox URL]
 4. **Metadata** — `submission_metadata.yaml`
+   =======
+
+---
+
+title: Redrob Job Profiler
+emoji: 🚀
+colorFrom: red
+colorTo: red
+sdk: docker
+app_port: 8501
+tags:
+
+- streamlit
+  pinned: false
+  short_description: Streamlit template space
+
+---
+
+# Welcome to Streamlit!
+
+Edit `/src/streamlit_app.py` to customize this app to your heart's desire. ❤️
+
+If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
+forums](https://discuss.streamlit.io).
+
+>>>>>>> c16aec7e4622b42a6a865679bbf0184c4cd93aad
+>>>>>>>
+>>>>>>
+>>>>>
+>>>>
+>>>
+>>
