@@ -1,4 +1,13 @@
 
+---
+title: RedRob Job Profiler
+colorFrom: blue
+colorTo: purple
+sdk: streamlit
+app_file: app.py
+pinned: false
+---
+
 # Redrob Hackathon — Intelligent Candidate Discovery & Ranking
 
 AI-powered candidate ranking system for the Redrob Hackathon challenge. Ranks 100K candidates for a Senior AI Engineer role using multi-component scoring with behavioral signal modifiers.
