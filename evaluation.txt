@@ -1,13 +1,13 @@
 This evaluation is based on rank.py.
 
-Run "python rank.py --candidates ./data/candidates.jsonl --out ./output/team_6a27b0543c432ee48257f0c4.csv"
+Run "python rank.py --candidates ./data/candidates.jsonl --out ./output/team_Tech Elites.csv"
 
 ---------------------------------------------
 ============================================================
   Redrob Hackathon -- Candidate Ranking System
 ============================================================
   Input:  ./data/candidates.jsonl
-  Output: ./output/team_6a27b0543c432ee48257f0c4.csv
+  Output: ./output/team_Tech Elites.csv
   Top N:  100
 ============================================================
 
@@ -29,7 +29,7 @@ Generating per-candidate reasoning...
 ============================================================
   RESULTS
 ============================================================
-  [OK] Wrote 100 candidates to: ./output/team_6a27b0543c432ee48257f0c4.csv
+  [OK] Wrote 100 candidates to: ./output/team_Tech Elites.csv
   [TIME] Total time: 22.2s / 300s budget
   [OK] Within budget -- 278s remaining
 
@@ -47,7 +47,7 @@ Generating per-candidate reasoning...
 
 Check 2--- validation 
 
-Run "python validate_submission.py output/team_6a27b0543c432ee48257f0c4.csv"
+Run "python validate_submission.py output/team_Tech Elites.csv"
 
 
 Submission is valid.

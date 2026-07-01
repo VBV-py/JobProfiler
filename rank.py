@@ -48,7 +48,7 @@ def write_csv(entries: list[dict], output_path: str) -> None:
 def main():
     parser = argparse.ArgumentParser(
         description="Rank candidates for the Redrob Hackathon challenge.",
-        epilog="Example: python rank.py --candidates ./data/candidates.jsonl --out ./output/team_6a27b0543c432ee48257f0c4.csv",
+        epilog="Example: python rank.py --candidates ./data/candidates.jsonl --out ./output/team_Tech Elites.csv",
     )
     parser.add_argument(
         "--candidates", "-c",
@@ -58,7 +58,7 @@ def main():
     parser.add_argument(
         "--out", "-o",
         default="./output/submission.csv",
-        help="Output CSV path (default: ./output/team_6a27b0543c432ee48257f0c4.csv)",
+        help="Output CSV path (default: ./output/team_Tech Elites.csv)",
     )
     parser.add_argument(
         "--top-n", "-n",

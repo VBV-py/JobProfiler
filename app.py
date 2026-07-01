@@ -45,7 +45,7 @@ def main():
             value=100,
             help="How many top candidates to include in output",
         )
-        filename_input = st.text_input("Output Filename", value="team_6a27b0543c432ee48257f0c4.csv")
+        filename_input = st.text_input("Output Filename", value="team_Tech Elites.csv")
         validate_output = st.checkbox("Validate Submission CSV", value=True)
 
     if uploaded is not None:
