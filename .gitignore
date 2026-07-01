@@ -33,3 +33,5 @@ build/
 # Environment
 .env
 .env.local
+
+ignore/

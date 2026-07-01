@@ -161,5 +161,5 @@ redrob-ranker/
 
 1. **CSV file** — `output/team_id.csv` (100 ranked candidates)
 2. **This repository** — full source code with setup instructions
-3. **Sandbox** — Streamlit app at [sandbox URL]
+3. **Sandbox** — Streamlit app at https://huggingface.co/spaces/vaibhavv2004/redrob-job-profiler
 4. **Metadata** — `submission_metadata.yaml`
