@@ -1,13 +1,3 @@
----
-title: RedRob Job Profiler
-colorFrom: blue
-colorTo: purple
-sdk: streamlit
-app_file: app.py
-pinned: false
-sdk_version: 1.58.0
-python_version: "3.11"
----
 
 # Redrob Hackathon — Intelligent Candidate Discovery & Ranking
 
@@ -49,13 +39,13 @@ Copy `candidates.jsonl` (or `candidates.jsonl.gz`) into the `data/` directory:
 #### Reproduce Submission
 
 ```bash
-python rank.py --candidates ./data/candidates.jsonl --out ./output/team_id.csv
+python rank.py --candidates ./data/candidates.jsonl --out ./output/team_Tech Elites.csv
 ```
 
 #### Validate
 
 ```bash
-python validate_submission.py output/team_id.csv
+python validate_submission.py output/team_Tech Elites.csv
 ```
 
 <pre class="vditor-reset" placeholder="" contenteditable="true" spellcheck="false"><hr data-block="0"/></pre>
@@ -160,7 +150,7 @@ redrob-ranker/
 
 ## Submission Contents
 
-1. **CSV file** — `output/team_id.csv` (100 ranked candidates)
+1. **CSV file** — `output/team_Tech Elites.csv` (100 ranked candidates)
 2. **This repository** — full source code with setup instructions
-3. **Sandbox** — Streamlit app at [sandbox URL]
+3. **Sandbox** — Streamlit app at https://huggingface.co/spaces/vaibhavv2004/redrob-job-profiler
 4. **Metadata** — `submission_metadata.yaml`
